@@ -1,0 +1,42 @@
+{
+  "name": "@atombrenner/jest-ts-utils",
+  "version": "0.1.0",
+  "description": "Typesafe mocking with Jest and Typescript",
+  "main": "./dist/mocked.js",
+  "types": "./dist/mocked.d.ts",
+  "files": ["./dist"],
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atombrenner/jest-ts-utils.git"
+  },
+  "keywords": [
+    "jest",
+    "mock",
+    "typescript",
+    "mocking",
+    "test"
+  ],
+  "author": "Christian Rodemeyer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/atombrenner/jest-ts-utils/issues"
+  },
+  "homepage": "https://github.com/atombrenner/jest-ts-utils#readme",
+  "dependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/jest": "^26.0.23"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/node": "^14.14.45",
+    "jest": "^26.6.3",
+    "typescript": "^4.2.4"
+  }
+}
