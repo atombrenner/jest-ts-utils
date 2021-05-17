@@ -4,7 +4,7 @@
   "description": "Typesafe mocking with Jest and Typescript",
   "main": "./dist/mocked.js",
   "types": "./dist/mocked.d.ts",
-  "files": ["./dist"],
+  "files": ["/dist"],
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",
