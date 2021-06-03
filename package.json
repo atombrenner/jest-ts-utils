@@ -9,7 +9,7 @@
     "prepublish": "npm run build",
     "build": "tsc",
     "clean": "rm -rf dist",
-    "test": "npx jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
